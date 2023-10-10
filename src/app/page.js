@@ -1,5 +1,10 @@
-import styles from "./page.module.css";
+import styles from "./homepage.module.css";
+import Link from "next/link";
 
 export default function Home() {
-  return <div>Testing App</div>;
+  return (
+    <div>
+      <Link href="/">testing global styles for Link</Link>
+    </div>
+  );
 }
