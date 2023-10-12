@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
   position: relative;
 }
 
@@ -14,8 +13,6 @@
   width: 15px;
   height: 15px;
   border-radius: 50px;
-  background-color: white;
-  /* for position: absolute and left: 1px to work -> parent (.container) needs to have position: relative */
+  /* for position: absolute and left: 1px (in the jsx file) to work -> parent (.container) needs to have position: relative */
   position: absolute;
-  left: 1px;
 }
